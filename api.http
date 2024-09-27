@@ -1,0 +1,31 @@
+POST http://localhost:3333/goals
+Content-Type: application/json
+
+{
+  "title": "Duo Lingo",
+  "desiredWeeklyFrequency": 7
+}
+
+###
+
+GET http://localhost:3333/pending-goals
+Content-Type: application/json
+
+{
+}
+
+### 
+
+POST http://localhost:3333/completions
+Content-Type: application/json
+
+{
+  "goalId": "k7vty14im8urc6tlg2k8a9xt"
+}
+
+###
+GET http://localhost:3333/summary
+Content-Type: application/json
+
+{
+}
